@@ -1,17 +1,17 @@
 
 
 {
-  "name": "Neno-xmd",
+  "name": "mezuka-md",
   "version": "0.0.5",
   "description": "A owner by nimeshka",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name NENO",
-    "stop": "pm2 stop NENO",
-    "restart": "pm2 restart NENO"
+    "stop": "pm2 stop MEZUKA",
+    "restart": "pm2 restart MEZUKA"
   },
   "dependencies": {
-       "@whiskeysockets/baileys": "npm:baileys-pro@latest",
+    "@whiskeysockets/baileys": "npm:@elrayyxml/baileys",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@dark-yasiya/yt-dl.js": "1.0.5",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
